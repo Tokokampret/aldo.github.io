@@ -1,0 +1,152 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  html, body {
+    height: 100%;
+    width: 100%;
+    font-family: 'Segoe UI', sans-serif;
+    background-color: #000;
+    color: #fff;
+    overflow: hidden;
+  }
+  
+  .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100vh;
+    padding: 30px;
+    position: relative;
+  }
+  
+  /* Left Info */
+  .info {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 90%;
+  }
+  
+  .logo {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  
+  .circle {
+    background-color: white;
+    color: black;
+    font-weight: bold;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    line-height: 30px;
+  }
+  
+  .brand {
+    color: #ff0055;
+    font-weight: bold;
+    letter-spacing: 2px;
+  }
+  
+  .role {
+    margin-top: auto;
+    font-size: 14px;
+  }
+  
+  .location {
+    font-size: 14px;
+    color: #ccc;
+  }
+  
+  .red {
+    color: #ff0055;
+  }
+  
+  .socials a {
+    color: white;
+    margin-right: 10px;
+    font-size: 18px;
+    transition: color 0.3s;
+  }
+  
+  .socials a:hover {
+    color: #ff0055;
+  }
+  
+  /* Center Image and Glow */
+  .center-image {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 1;
+  }
+  
+  .glow-circle {
+    width: 60vmin;
+    height: 60vmin;
+    border-radius: 50%;
+    box-shadow: 0 0 40px #ff0055, 0 0 80px #ff0055;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+  }
+  
+  .circle-image {
+    width: 52vmin;
+    height: 52vmin;
+    border-radius: 50%;
+    background-image: url('image/center.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+  
+  /* Right Menu */
+  .menu {
+    text-align: right;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 90%;
+  }
+  
+  .menu h1 {
+    font-size: 20px;
+    line-height: 1.5;
+  }
+  
+  .first {
+    color: white;
+  }
+  
+  .last {
+    color: #ff0055;
+  }
+  
+  .nav {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    writing-mode: vertical-rl;
+    text-orientation: mixed;
+    margin-left: auto;
+  }
+  
+  .nav a {
+    color: white;
+    text-decoration: none;
+    transition: color 0.3s;
+    font-weight: bold;
+  }
+  
+  .nav a:hover {
+    color: #ff0055;
+  }
+  
